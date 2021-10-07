@@ -14,7 +14,37 @@
             <li><a href="./commander.html">Commander</a></li>
             <li><a href="./trouver-restaurant.html">Trouver un restaurant</a></li>
         </ul>
-        <div id="marge">
+        <div id="tab-commande">
+            <form action="/adresse/ou/envoyer/" method="post" class="form-inscription">
+                <div>
+                    <label>Nom :
+                        <input type="text" id="nom" >
+                    </label>
+                </div>
+                <div>
+                    <label>Prénom :
+                        <input type="text" id="prenom" >
+                    </label>
+                </div>
+                <div>
+                    <label>Adresse :
+                        <input type="text" id="adresse" >
+                    </label>
+                </div>
+                <div>
+                    <select>
+                        <option value ="champignon">La Champignon</option>
+                        <option value ="legume">La Légume</option>
+                        <option value ="complete">La Complète +</option>
+                        <option value ="reine">La Reine</option>
+                        <option value ="undefined">L'Inexistante</option>
+                    </select>
+                </div>
+                <div>
+                <input type="submit" value="envoyer">
+                </div>
+             </form>
+             
 
         </div>
     </body>

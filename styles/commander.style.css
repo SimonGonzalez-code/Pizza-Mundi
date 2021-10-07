@@ -29,6 +29,9 @@ body {
     background-image: url("../assets/10568823.gif");
 }
 
-#marge {
-    margin: 30px;
+#tab-commande {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
 }
