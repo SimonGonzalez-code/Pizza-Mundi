@@ -25,6 +25,21 @@ li a:hover {
     background-color: #111;
 }
 
-.active {
-    background-color: #4CAF50;
+body {
+    background-image: url("../assets/10568823.gif");
+}
+
+#pizzaaa {
+    font-size: 70px;
+    background-color: aliceblue;
+}
+
+#marge {
+    margin: 30px;
+}
+
+#box-pizzayolo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
